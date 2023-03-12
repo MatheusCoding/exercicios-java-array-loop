@@ -1,7 +1,5 @@
 package br.com.dio.exercicios.loop;
-
 import java.util.Scanner;
-
 /*
 Faça um programa que peça uma nota, entre zero e dez.
 Mostre uma mensagem caso o valor seja inválido
@@ -16,7 +14,7 @@ public class Ex2_Nota {
         System.out.println("Digite uma nota: ");
         nota = scan.nextInt();
 
-        while(nota < 0 | nota > 10){
+        while(nota < 0 || nota > 10){ //Enquanto a true vai pedir a nota
             System.out.println("Nota inválida! Digite novamente: ");
             nota= scan.nextInt();
 
