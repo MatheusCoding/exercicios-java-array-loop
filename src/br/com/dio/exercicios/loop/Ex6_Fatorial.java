@@ -9,16 +9,16 @@ public class Ex6_Fatorial {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int numero, resultado = 1, contador;
+        int numero, multiplicacao = 1, contador;
 
         System.out.println("---------------------");
         System.out.println("-------FATORIAL------");
         System.out.println("Digite um número: ");
         numero = scan.nextInt();
 
-        for (contador = 2;contador <= numero;contador++){
-            resultado *= contador;
+        for (contador = numero;contador >= 1;contador--){ //contador começa na entrada do usuario "numero" e decrementa o contador
+            multiplicacao *= contador; //multipplicacao = multiplicacao * contador;
         }
-        System.out.println("Fatorial de " + numero + " é igual a " + resultado);
+        System.out.println("Fatorial de " + numero + " é igual a " + multiplicacao);
     }
 }
