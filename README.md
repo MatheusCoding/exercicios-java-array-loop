@@ -8,8 +8,8 @@ Os exercícios estão organizados em pastas para cada tema específico. Cada pas
 
 Aqui estão os temas dos exercícios que você pode encontrar neste repositório:
 
-* 📁 `Exercícios de Loop`: exercícios envolvendo o uso de loops for, while e do-while.
-* 📁 `Exercícios de Array`: exercícios envolvendo o uso de arrays unidimensionais e multidimensionais.
+* 📁 `Loop`: exercícios envolvendo o uso de loops for, while e do-while.
+* 📁 `Array`: exercícios envolvendo o uso de arrays unidimensionais e multidimensionais.
 
 ## Como Usar 🤔
 
